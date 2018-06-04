@@ -16,7 +16,7 @@
  *             or
  *                  include '...path/bootstrap.php';
  *
- *                  $smarty = new Smarty();
+ *                  $Smarty = new Smarty();
  */
 class Smarty_Autoloader
 {

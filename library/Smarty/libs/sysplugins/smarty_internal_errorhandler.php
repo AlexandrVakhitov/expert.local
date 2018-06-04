@@ -95,7 +95,7 @@ class Smarty_Internal_ErrorHandler
             }
         }
         // pass to next error handler if this error did not occur inside SMARTY_DIR
-        // or the error was within smarty but masked to be ignored
+        // or the error was within Smarty but masked to be ignored
         if (!$_is_muted_directory || ($errno && $errno & error_reporting())) {
             if (self::$previousErrorHandler) {
                 return call_user_func(self::$previousErrorHandler,

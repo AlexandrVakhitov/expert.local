@@ -205,7 +205,7 @@ class Smarty_Internal_Debug extends Smarty_Internal_Data
             $this->index = 9999;
         }
         $smarty = $obj->_getSmartyObj();
-        // create fresh instance of smarty for displaying the debug console
+        // create fresh instance of Smarty for displaying the debug console
         // to avoid problems if the application did overload the Smarty class
         $debObj = new Smarty();
         // copy the working dirs from application

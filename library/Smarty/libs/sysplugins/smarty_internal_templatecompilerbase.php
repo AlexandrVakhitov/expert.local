@@ -540,7 +540,7 @@ abstract class Smarty_Internal_TemplateCompilerBase
     public function compileConfigVariable($variable)
     {
         // return '$_smarty_tpl->config_vars[' . $variable . ']';
-        return '$_smarty_tpl->smarty->ext->configLoad->_getConfigVariable($_smarty_tpl, ' . $variable . ')';
+        return '$_smarty_tpl->Smarty->ext->configLoad->_getConfigVariable($_smarty_tpl, ' . $variable . ')';
     }
 
     /**
@@ -1392,7 +1392,7 @@ abstract class Smarty_Internal_TemplateCompilerBase
                 }
             }
         }
-        // compile the smarty tag (required compile classes to compile the tag are auto loaded)
+        // compile the Smarty tag (required compile classes to compile the tag are auto loaded)
         if (($_output = $this->callTagCompiler($tag, $args, $parameter)) === false) {
             if (isset($this->parent_compiler->tpl_function[ $tag ]) ||
                 (isset ($this->template->smarty->ext->_tplFunction) &&

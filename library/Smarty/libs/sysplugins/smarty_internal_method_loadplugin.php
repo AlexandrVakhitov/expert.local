@@ -3,7 +3,7 @@
 /**
  * Smarty Extension Loadplugin
  *
- * $smarty->loadPlugin() method
+ * $Smarty->loadPlugin() method
  *
  * @package    Smarty
  * @subpackage PluginsInternal

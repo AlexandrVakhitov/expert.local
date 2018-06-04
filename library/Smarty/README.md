@@ -39,7 +39,7 @@ For a specific version use something like:
 
 ```json
 "require": {
-    "smarty/smarty": "3.1.19"
+    Smarty: "3.1.19"
 }
 ```
 
@@ -55,7 +55,7 @@ Similar applies for the lexer/parser generator.
 
 ```json
 "require": {
-    "smarty/smarty-lexer": "3.1.19"
+    Smarty: "3.1.19"
 }
 ```
 

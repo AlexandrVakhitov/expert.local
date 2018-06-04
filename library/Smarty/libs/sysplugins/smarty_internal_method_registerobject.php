@@ -34,7 +34,7 @@ class Smarty_Internal_Method_RegisterObject
      *                                                                                                    allowed
      *                                                                                                    methods
      *                                                                                                    (empty = all)
-     * @param  bool                                                           $format                     smarty
+     * @param  bool                                                           $format                     Smarty
      *                                                                                                    argument
      *                                                                                                    format, else
      *                                                                                                    traditional

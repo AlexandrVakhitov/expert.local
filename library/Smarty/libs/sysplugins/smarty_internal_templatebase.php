@@ -9,7 +9,7 @@
  */
 
 /**
- * Class with shared smarty/template methods
+ * Class with shared Smarty/template methods
  *
  * @package      Smarty
  * @subpackage   Template
@@ -322,7 +322,7 @@ abstract class Smarty_Internal_TemplateBase extends Smarty_Internal_Data
      * @param  string $object_name
      * @param  object $object                     the referenced PHP object to register
      * @param  array  $allowed_methods_properties list of allowed methods (empty = all)
-     * @param  bool   $format                     smarty argument format, else traditional
+     * @param  bool   $format                     Smarty argument format, else traditional
      * @param  array  $block_methods              list of block-methods
      *
      * @return \Smarty|\Smarty_Internal_Template
